@@ -7,10 +7,10 @@ pub struct StockQuote {
     pub t: String,      // Timestamp
     pub ax: String,     // Exchange
     pub ap: f32,        // Ask Price
-    pub r#as: i32,      // Ask Size
+    pub r#as: i64,      // Ask Size
     pub bx: String,     // Exchange
     pub bp: f32,        // Bid Price
-    pub bs: i32,        // Bid Size
+    pub bs: i64,        // Bid Size
     pub c: Vec<String>, // Condition
     pub z: String,      // Condition
 }
