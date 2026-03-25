@@ -15,7 +15,7 @@ pub struct StockPrice {
     pub c: String, // Condition
     pub p: f32,    // Price
     pub t: String, // Time
-    pub s: i32,    // Size
+    pub s: i64,    // Size
     pub x: String, // Exchange
 }
 

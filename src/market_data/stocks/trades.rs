@@ -7,9 +7,9 @@ pub struct StockTrade {
     pub t: String,      // Timestamp
     pub x: String,      // Exchange
     pub p: f64,         // Price
-    pub s: i32,         // Size
+    pub s: i64,         // Size
     pub c: Vec<String>, // Condition
-    pub i: i32,         // Id
+    pub i: i64,         // Id
     pub z: String,      // Condition
 }
 

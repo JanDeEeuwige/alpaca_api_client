@@ -11,7 +11,7 @@ pub struct StockBar {
     pub l: f32,    // Low
     pub c: f32,    // Close
     pub v: f32,    // Volume
-    pub n: i32,    // Number of trades
+    pub n: i64,    // Number of trades
     pub vw: f32,   // Volume weighted average
 }
 

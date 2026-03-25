@@ -7,7 +7,7 @@ pub struct OptionTrade {
     pub t: String, // Timestamp
     pub x: String, // Exchange
     pub p: f64,    // Price
-    pub s: i32,    // Size
+    pub s: i64,    // Size
     pub c: String, // Condition
 }
 
